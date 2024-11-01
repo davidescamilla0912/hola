@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Operaciones Aritméticas</title>
+    <script>
+        function calcular() {
+            let a = parseFloat(document.getElementById("valor1").value);
+            let b = parseFloat(document.getElementById("valor2").value);
+
+            let suma = a + b;
+            let resta = a - b;
+            let multiplicacion = a * b;
+            let division = a / b ;
+            let comparar1 = a > b;
+            let comparar2 = a < b;
+            let comparar3 = a == b;
+            let comparar4 = a != b;
+
+            document.getElementById("resultado").innerHTML = `
+                Suma: ${suma} <br>
+                Resta: ${resta} <br>
+                Multiplicación: ${multiplicacion} <br>
+                División: ${division} <br>
+                
+            `;
+        }
+    </script>
+</head>
+<body>
+    <center><h1>OPERACIONES</h1></center>
+
+    <center>
+        <table>
+            <tr>
+                <td>Valor 1:</td>
+                <td><input type="number" id="valor1"></td>
+            </tr>
+            <tr>
+                <td>Valor 2:</td>
+                <td><input type="number" id="valor2"></td>
+            </tr>
+        </table>
+        <br>
+        <button onclick="calcular()">Calcular</button>
+        <br>
+        <h2>Resultado:</h2>
+        <div id="resultado"></div>
+    </center>
+</body>
+
+<body>
+    <script>
+    //parte 1
+    let d = 13;
+    let nombre = "natalia";
+    let numerofav = 13;
+    let estudiante= true;
+    console.log("\n nombre: ", nombre);
+    console.log("\n numerofav", numerofav);
+    console.log("\n eres estudiante?", estudiante);
+    // parte 3
+
+
+
+    script
+   
+    var esMayorDeEdad = true;  
+    var TieneLicencia = true;     
+
+ 
+    if (esMayorDeEdad && TieneLicencia) 
+        console.log("Puede conducir.");
+        if (esMayorDeEdad || TieneLicencia) {
+            console.log("Puede conducir.");
+    } else {
+        console.log("No puede conducir.");
+    }
+</script>
+
+</script>
+</body>
+<body>
+</body>
+</html>
